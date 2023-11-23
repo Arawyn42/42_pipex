@@ -4,7 +4,25 @@ This project consists in reproducing the behaviour of the pipe `|` in bash.
 
 Done in 42 cursus at 42 Perpignan, in November of 2023 with bonus.
 
+## How to make the executable ?
+```bash
+git clone https://github.com/Arawyn42/42_pipex
+cd 42_pipex
+```
+### Normal version
+```bash
+make
+make clean
+```
+
+### Bonus version
+```bash
+make bonus
+make clean
+```
+
 ## How to use ?
+### Normal version
 The following command :
 ```bash
 ./pipex file1 cmd1 cmd2 file2
@@ -13,7 +31,7 @@ is the equivalent of the bash command:
 ```bash
 < file1 cmd1 | cmd2 > file2
 ```
-## Bonus
+### Bonus version
 The bonus build allows multi pipes, like this:
 ```bash
 ./pipex file1 cmd1 cmd2 cmd3 ... cmdN file2
