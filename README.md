@@ -1,5 +1,9 @@
 # <div align="center">⚙️ pipex (a [42](https://42perpignan.fr/) project) ⚙️</div>
 
+## Grade
+![drenassi's 42 pipex Score](https://badge42.coday.fr/api/v2/clph33bao098101t6vnzqbe17/project/3398019)
+
+## Introduction
 This project consists in reproducing the behaviour of the pipe `|` in bash.
 
 Done in 42 cursus at 42 Perpignan, in November of 2023 with bonus.
@@ -42,7 +46,3 @@ With the bonus build, it is also possible to perform a **here_doc** pipe, like t
 ./pipex here_doc LIMITER cmd1 cmd2 ... cmdN outfile
 ```
 where LIMITER correspond to the stop keyword of the here_doc. By convention, it's *EOF*, for End Of File.
-
-## Grade obtained
-
-![125](grade.png)
