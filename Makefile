@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: drenassi <marvin@42.fr>                    +#+  +:+       +#+         #
+#    By: drenassi <@student.42perpignan.fr>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/11/09 18:01:57 by drenassi          #+#    #+#              #
-#    Updated: 2023/11/16 17:47:30 by drenassi         ###   ########.fr        #
+#    Updated: 2024/10/22 16:32:06 by drenassi         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -215,10 +215,12 @@ endef
 .PHONY:																		all
 all: header setup $(NAME)
 	@rm -rf .files_changed
+	@echo ""
 
 .PHONY:																		bonus
 bonus: fclean header bonus_setup do_bonus
 	@rm -rf .files_changed
+	@echo ""
 
 #################################### HEADER ####################################
 .PHONY:																		header
